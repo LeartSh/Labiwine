@@ -685,12 +685,12 @@ footer {
         justify-content: flex-start;
         padding: 60px 0 20px 0; /* Reduced top padding */
         height: auto;
-        gap: 10px; /* This controls the vertical space between links */
+        gap: 5px; /* This controls the vertical space between links */
     }
 
     .navbar-menu li {
         left: 0 !important; /* Forces the links out of that 300px offset */
-        height: 40px; /* Reduced from 100px to tighten vertical gap */
+        height: 35px; /* Reduced from 100px to tighten vertical gap */
     }
 
     .navbar-menu a, .dropdown-button {
@@ -705,5 +705,6 @@ footer {
         gap: 15px; /* Tightens space between social icons */
     }
 }
+
 
 
