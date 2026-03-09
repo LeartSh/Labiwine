@@ -677,3 +677,31 @@ footer {
         padding-top: 40px;
     }
 }
+
+@media (max-width: 700px) {
+    .navbar-menu {
+        flex-direction: column;
+        align-items: center; /* Centers the links */
+        justify-content: flex-start;
+        padding: 60px 0 20px 0; /* Reduced top padding */
+        height: auto;
+        gap: 10px; /* This controls the vertical space between links */
+    }
+
+    .navbar-menu li {
+        left: 0 !important; /* Forces the links out of that 300px offset */
+        height: 50px; /* Reduced from 100px to tighten vertical gap */
+    }
+
+    .navbar-menu a, .dropdown-button {
+        height: 50px; /* Matches the li height */
+        padding: 5px 0; /* Tightens the internal spacing */
+        font-size: 18px; /* Slightly smaller text for better fit */
+    }
+    
+    .navbar-icons {
+        justify-content: center;
+        margin: 20px 0;
+        gap: 15px; /* Tightens space between social icons */
+    }
+}
