@@ -690,7 +690,7 @@ footer {
 
     .navbar-menu li {
         left: 0 !important; /* Forces the links out of that 300px offset */
-        height: 30px; /* Reduced from 100px to tighten vertical gap */
+        height: 40px; /* Reduced from 100px to tighten vertical gap */
     }
 
     .navbar-menu a, .dropdown-button {
@@ -705,4 +705,5 @@ footer {
         gap: 15px; /* Tightens space between social icons */
     }
 }
+
 
