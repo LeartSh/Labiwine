@@ -19,9 +19,9 @@
     <!-- Navbar -->
  <div class="navbar">
         <div class="navbar-container">
-          <a href="index.html"><img id="image1" src="/Images/Labi wine logo.png" alt="Labi wine"></a>
+          <a href="/main/labiwine.html"><img id="image1" src="/Images/Labi wine logo.png" alt="Labi wine"></a>
             <ul class="navbar-menu">
-                <li><a href="index.html" id="li1">Home</a></li>
+                <li><a href="/main/labiwine.html" id="li1">Home</a></li>
                 <li class="dropdown">
                    <a href="/vreshtat/Vreshtat.html"><button class="dropdown-button">Wineyards</button></a> 
                     <div class="dropdown-content">
@@ -312,7 +312,7 @@
 
     <div class="footer-bottom">
         <div class="bottom-left">
-            <a href="index.html"><h3 id="Returns">Returns</h3></a>
+            <a href="../Labi wine.html"><h3 id="Returns">Returns</h3></a>
             <h3 id="Privacy">Privacy Policy</h3>
         </div>
         <div class="bottom-right">
@@ -322,73 +322,7 @@
 </footer>
 
     <!-- Scroll to top button -->
-    <a class="gotop" href="#"><i class="fa-solid fa-arrow-up"></i></a>
-
-<script>
-  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-const navbarMenu = document.getElementById('navbarMenu');
-
-mobileMenuBtn.addEventListener('click', () => {
-    navbarMenu.classList.toggle('active');
-    
-    // Optional: Animation for the hamburger spans
-    const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
-    mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
-});
-</script>
-  <script>
-    window.onload = function() {
-    // 1. Get the search term from the URL
-    const params = new URLSearchParams(window.location.search);
-    const searchTerm = params.get('search');
-
-    if (searchTerm) {
-        // 2. Find all your wine items (adjust '.wine-card' to match your class)
-        const wines = document.querySelectorAll('.wine-card'); 
-        
-        wines.forEach(wine => {
-            // 3. Get the wine name (assuming it's in an <h3> or similar)
-            const wineName = wine.querySelector('h3').innerText.toLowerCase();
-            
-            // 4. Show it if it matches, hide it if it doesn't
-            if (wineName.includes(searchTerm.toLowerCase())) {
-                wine.style.display = "block";
-            } else {
-                wine.style.display = "none";
-            }
-        });
-    }
-}
-  </script>
+    <a class="gotop" href="#"><i class="fa-solid fa-arrow-up"></i></a>  
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
