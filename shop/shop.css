@@ -404,12 +404,10 @@ body{
     transition: transform 0.3s ease;
     position: relative;
     overflow: hidden;
-    box-shadow: 1px  1px 1px 1px #9e8862;
 }
 
 .wine-card:hover {
   transform: translateY(-5px);
-  box-shadow: 2px 1px 2px 1px #9e8862;
 }
 
 .image-section {
